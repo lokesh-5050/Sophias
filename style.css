@@ -1,0 +1,461 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #001528;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #001528;
+}
+#page1 {
+  width: 100%;
+  height: 170vh;
+  
+  background-color: #001528;
+}
+#nav {
+  width: 100%;
+  height: 100px;
+  /* background-color: rgb(13, 58, 44); */
+  position: fixed;
+  top: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 600;
+}
+.logo {
+  width: 225px;
+
+  height: 51px;
+  /* background-color: pink; */
+  background-image: url(https://sophias-leeuwarden.nl/app/uploads/2022/02/sophias-logo.svg);
+  background-size: contain;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.menu {
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  /* background-color: palegoldenrod; */
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.menu h2 {
+  font-family: Saol Display;
+  color: #f2d4a5;
+  font-weight: 400;
+}
+#text {
+  width: 100%;
+  height: 300px;
+  background-color: #001528;
+  /* background-color: rgb(88, 9, 21); */
+  text-align: center;
+  margin-top: 265px;
+}
+#text h1 {
+  font-size: 110px;
+  font-family: Saol Display;
+  letter-spacing: 12px;
+  color: #f2d4a5;
+  font-weight: 100;
+  line-height: 110px;
+}
+#chaman {
+  /* width: 300px; */
+  height: 103px;
+  
+  /* background-color: rgb(179, 15, 42); */
+  overflow: hidden;
+  
+  
+}
+
+#chaman h1{
+  animation-name: lo;
+  animation-duration: 2s;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+@keyframes lo{
+  from{
+    margin-top: 100px;
+
+  }
+to{
+  margin-top: 0;
+}
+}
+
+#lux {
+  width: 100%;
+  height: 100%;
+  
+  background-image: url(https://sophias-leeuwarden.nl/app/uploads/2021/12/sophias-urban-bistro-bar-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#page2 {
+  width: 100%;
+  height: 180vh;
+
+  background-color: #001528;
+}
+#full {
+  width: 100%;
+  height: 180vh;
+  background-color: #001528;
+  display: flex;
+
+  position: relative;
+  left: 0%;
+}
+.city {
+  width: 300px;
+  height: 250px;
+  /* background-color: pink; */
+  position: absolute;
+  top: 82%;
+  left: 52%;
+}
+.city h1 {
+  font-size: 65px;
+  font-family: Saol Display;
+  letter-spacing: 3px;
+  font-weight: 400;
+  line-height: 65px;
+  color: #f2d4a5;
+}
+.city h4 {
+  font-size: 15px;
+  font-family: Saol Display;
+  color: #f2d4a5;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.urban {
+  width: 300px;
+  height: 200px;
+  /* background-color: cornflowerblue; */
+  position: absolute;
+  margin-top: 235px;
+  margin-left: 100px;
+  padding-top: 15px;
+}
+.urban h1 {
+  font-size: 65px;
+  font-family: Saol Display;
+  font-weight: 700;
+  line-height: 63px;
+  color: #f2d4a5;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+.urban h4 {
+  font-size: 15px;
+  font-family: Saol Display;
+  color: #f2d4a5;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.img1 {
+  width: 38%;
+  height: 60%;
+  background-image: url(https://sophias-leeuwarden.nl/app/uploads/2021/12/sophias-urban-bistro-overview-1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 100px;
+  margin-top: 450px;
+}
+.img2 {
+  width: 38%;
+  height: 60%;
+  background-image: url(https://sophias-leeuwarden.nl/app/uploads/2021/12/sophias-city-garden-3.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 88px;
+  margin-top: 250px;
+}
+#page3 {
+  width: 100%;
+  height: 140vh;
+  background-color: #001528;
+}
+#whole {
+  width: 100%;
+  height: 140vh;
+  background-color: #001528;
+  display: flex;
+  justify-content: space-between;
+}
+.bismenu {
+  width: 1000px;
+  height: 60px;
+  /* background-color: violet; */
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.bismenu h1 {
+  font-size: 90px;
+  font-weight: 400;
+  font-family: Saol display;
+  color: #ffdeac;
+  letter-spacing: 13px;
+}
+.lunch {
+  width: 200px;
+  height: 30px;
+  /* background-color: pink; */
+  position: absolute;
+  margin-top: 820px;
+  margin-left: 50px;
+}
+.lunch h1 {
+  font-size: 40px;
+  font-family: Saol display;
+  font-weight: 800;
+  letter-spacing: 7px;
+  color: #ffdeac;
+}
+.dinner {
+  width: 200px;
+  height: 30px;
+  /* background-color: pink; */
+  position: absolute;
+  margin-top: 820px;
+  margin-left: 687px;
+}
+.dinner h1 {
+  font-size: 40px;
+  font-family: Saol display;
+  font-weight: 800;
+  letter-spacing: 7px;
+  color: #ffdeac;
+}
+.food1 {
+  width: 44%;
+  height: 55%;
+  background-image: url(https://sophias-leeuwarden.nl/app/uploads/2022/01/AronWeidenaar-6227-scaled-1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
+  position: relative;
+  top: 24%;
+}
+.food2 {
+  width: 47%;
+  height: 55%;
+  background-image: url(https://sophias-leeuwarden.nl/app/uploads/2021/12/sophias-urban-bistro-food-11.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 24%;
+}
+#page4 {
+  width: 100%;
+  height: 150vh;
+  background-color: #001528;
+}
+#all{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://sophias-leeuwarden.nl/app/uploads/2022/02/sophias-city-garden-terrace-night-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.he h1{
+    width: 100%;
+    font-size:100px;
+    margin-top: 450px;
+    text-align: center;
+    position: absolute;
+    height: 300px;
+    color: #FFDEAC;
+    font-family: Saol display;
+    font-weight: 400;
+    letter-spacing: 10px;
+    /* background-color:cadetblue ; */
+    /* transition: cubic-bezier(0.19, 1, 0.22, 1) 2ms; */
+}
+/* .he h1:hover{
+  cursor: pointer;
+  transition-property: all;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1) 1ms;
+} */
+#page5{
+    width: 100%;
+    height: 250vh;
+    background-color: #001528;
+}
+#po{
+    width: 100%;
+    height: 130vh;
+    background-color: #001528;
+    display: flex;
+    
+    
+}
+.write h1{
+    font-size: 90px;
+    width: 90%;
+    height: 100px;
+    /* background-color: palevioletred; */
+    position: absolute;
+    text-align: center;
+    letter-spacing: 10px;
+    z-index: 20;
+    margin-top: 205px;
+    font-family: saol display;
+    font-weight: 400;
+    color: #FFDEAC;
+    text-align: center;
+    line-height: 120px;
+    margin-left: 45px;
+}
+.one{
+    width: 35%;
+    height: 75%;
+    background-image: url(https://sophias-leeuwarden.nl/app/uploads/2022/02/AronWeidenaar-1556.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 18%;
+    left: 8%;
+    
+
+}
+.two{
+    width: 35%;
+    height: 75%;
+    background-image: url(https://sophias-leeuwarden.nl/app/uploads/2021/12/sophias-urban-bistro-overview-3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 18%;
+    left: 18%;
+    
+    
+
+}
+#lo{
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(235, 116, 235); */
+    display: flex;
+    margin-top: 50px;
+}
+.sec{
+    width: 35%;
+    height: 85%;
+    background-image: url(https://sophias-leeuwarden.nl/app/uploads/2021/12/sophias-urban-bistro-liquor.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 8%;
+}
+.cot{
+    width: 35%;
+    height: 85%;
+    background-image: url(https://sophias-leeuwarden.nl/app/uploads/2021/12/sophias-emmy.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 18%;
+}
+#do{
+    width: 100%;
+    height: 35%;
+    /* background-color: rgb(247, 247, 247); */
+    display: flex;
+}
+.sin{
+    width: 35%;
+    height: 95%;
+    background-image: url(https://sophias-leeuwarden.nl/app/uploads/2021/12/sophias-urban-bistro-bar-2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 8%;
+}
+.cos{
+    width: 35%;
+    height: 95%;
+    background-image: url(https://sophias-leeuwarden.nl/app/uploads/2021/12/sophias-urban-bistro-wines-3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 18%;
+}
+#ho{
+    width: 100%;
+    height: 30%;
+
+    background-color: #001528;
+}
+.meu{
+    width: 30%;
+    height: 50%;
+    /* background-color: rgb(124, 86, 93); */
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.meu h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #FFDEAC;
+    font-family: saol display;
+}
+.insta{
+    width: 200px;
+    height: 300px;
+    /* background-color: cornflowerblue; */
+    position: absolute;
+   margin-left: 75%;
+   margin-top: 20px;
+   padding-left: 20px;
+}
+.insta h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFDEAC;
+    font-family: saol display;
+}
+.mo{
+    width: 300px;
+    height: 100px;
+    /* background-color: skyblue; */
+    position: absolute;
+    left:870px;
+    text-align: right;
+    margin-top: 90px;
+}
+.mo h1{
+    font-size: 16px;
+    font-family: saol display;
+    font-weight: 500;
+    color: #FFDEAC;
+}
+.cross{
+    width: 85px;
+    height:75px;
+    /* background-color: palevioletred; */
+    background-image:url(https://sophias-leeuwarden.nl/app/themes/sophias/dist/svg/sophias-stamp.svg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 125px;
+    margin-left: 100px;
+}
